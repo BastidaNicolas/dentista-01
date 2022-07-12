@@ -1,0 +1,69 @@
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Anything that doesnt have an R at the end is shred with the L component, if the L comp[onent isnt being used then just un-comment them in this document */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.section-container-R{
+    display: flex;
+    width: 100%;
+    background-color: #2787C1;
+}
+/* .img-container{
+    
+    width: 50%;
+    height: 673px;
+    background-position: center;
+    background-size: cover;
+}
+.content-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.content-R{
+    max-width: 752px;
+    color: white;
+}
+.content-R h2{
+    font-size: 40px;
+    margin-top: 0;
+}
+.content-R p,.content-R li,.content-R div{
+    font-size: 25px;
+}
+.content-R div{
+    width: fit-content;
+    transition: all .2s;
+}
+.section-link-R{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.content-R div:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+@media screen and (max-width: 1600px) {
+    .content-R{
+        margin: 0 1rem 0 1rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .section-container-R{
+        flex-direction: column-reverse;
+    }
+    /* .img-container{
+        width: 100%;
+    }
+    .content-container{
+        width: 100%;
+    } */
+    .content-R h2{
+        font-size: 30px;
+    }
+    .content-R p,.content-R li,.content-R div{
+        font-size: 20px;
+    }
+}

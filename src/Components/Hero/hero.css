@@ -1,0 +1,56 @@
+.hero-container{
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    background-size:cover;
+    /* background-image: url("../../Media/Welcome-min.webp"); */
+    /* background-position:right; */
+    /* background: , url(.jpg); */
+}
+.hero-content{
+    /* position: absolute; */
+    margin: auto;
+    padding-top: clamp(6rem,12vw,8.75rem);
+    max-width: 1703px;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    /* color: #4d4d4d; */
+}
+.title-1{
+    font-weight: normal;
+    margin: 0;
+    line-height: clamp( 0,5vw,141px);
+}
+.title-2{
+    font-weight: bold;
+    margin: 0;
+    line-height: clamp( 0,5vw,141px);
+}
+.hero-content button{
+    font-size: clamp(1.5rem, 4vw, 2.9375rem);
+    border-radius: 63.5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0.574468085106383em 1.8085106382978724em 0.5957446808510638em 1.8085106382978724em;
+}
+@media screen and (max-width: 1710px) {
+    .hero-content{
+        margin: auto 1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .hero-content button{
+        width: 100%;
+        font-weight: bold;
+        padding: 1em 0 1em 0;
+    }
+}
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.center p{
+    margin: 0.5rem 0 0 0;
+    font-size: clamp(1.3rem, 4vw, 1.8rem);
+}
