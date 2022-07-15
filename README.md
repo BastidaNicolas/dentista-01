@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Dental office website
+
+![Screenshot_20220715_200640](https://user-images.githubusercontent.com/74965310/179322764-e7e1a4f2-b3be-478a-8a54-cb8f64ff2d39.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
