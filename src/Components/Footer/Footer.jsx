@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='developer-mark'>
-                Developed by <a href='https://nicolasebastida.netlify.app/' target='_blank' rel="noreferrer">Nicolas E. Bastida</a>
+                Developed by <a href='https://nicolas.bastida.dev/' target='_blank' rel="noreferrer">Nicolas E. Bastida</a>
             </div>
         </div>
     )
